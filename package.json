@@ -1,0 +1,19 @@
+{
+  "name": "sinopia-freeze-storage",
+  "version": "1.0.0",
+  "description": "Updates sinopia's package.json storage files to describe only locally available packages.",
+  "keywords": ["sinopia", "offline", "local", "registry", "cli"],
+  "main": "main.js",
+  "bin": {
+    "freeze-storage": "./bin/cli.js"
+  },
+  "repository": "https://github.com/g3ngar/sinopia-freeze-storage.git",
+  "author": "gengar <gengar@nauta.cu>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.0.26",
+    "lodash": "^4.17.10",
+    "loggy": "^1.0.2",
+    "semver-compare": "^1.0.0"
+  }
+}
