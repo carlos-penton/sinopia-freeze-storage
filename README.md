@@ -17,7 +17,7 @@ freeze-storage /path/to/sinopia/storage/directory
 
 ## Why?
 ### **tl;dr:** 
-If my registry worked when online, then it must work later when offline with **the same dependencies requirements**.
+If my registry worked when online, then it must work later when offline for **the same dependencies requirements**.
 
 
 ### **Long version (basically me complaining for not having internet access everywhere):**
