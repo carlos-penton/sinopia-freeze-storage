@@ -29,8 +29,7 @@ function handleArgv() {
 
 
 // Setup fancy logging...
-loggy.notifications.levels = ['error', 'success'];
-loggy.notifications.app = APP_NAME;
+loggy.notifications= false;  // so no one complains because of native-notifier
 let oldWarn = loggy.warn;
 loggy.warn = message => {
     oldWarn(message);
