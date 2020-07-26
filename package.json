@@ -1,6 +1,6 @@
 {
   "name": "sinopia-freeze-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Updates sinopia's package.json storage files to describe only locally available packages.",
   "keywords": ["sinopia", "offline", "local", "registry", "cli"],
   "main": "main.js",
